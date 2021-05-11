@@ -1,0 +1,411 @@
+{
+    "nic.goi.aarogyasetu": {
+        "activityData": [
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.views.statuscheck.StatusCheckActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.views.HomeActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.views.OnboardingActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": true,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.views.SplashActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.views.PermissionActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.qrcode.QrActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.qrcode.CustomScannerActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.views.settings.SettingsActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.views.settings.DeleteAccountActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.views.approval.ApprovalsActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "nic.goi.aarogyasetu.views.settings.ApprovalPreferenceActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "com.journeyapps.barcodescanner.CaptureActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            },
+            {
+                "isExported": false,
+                "label": "Aarogya Setu",
+                "name": "com.google.android.gms.common.api.GoogleApiActivity",
+                "packageName": "nic.goi.aarogyasetu"
+            }
+        ],
+        "analysisMode": "INSTALLED_PACKAGE",
+        "broadcastReceiverData": [
+            {
+                "isExported": true,
+                "name": "nic.goi.aarogyasetu.background.BootReceiver"
+            },
+            {
+                "isExported": true,
+                "name": "nic.goi.aarogyasetu.utility.SmsReceiver"
+            },
+            {
+                "isExported": true,
+                "name": "nic.goi.aarogyasetu.utility.BluetoothLocationReceiver"
+            },
+            {
+                "isExported": false,
+                "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            },
+            {
+                "isExported": false,
+                "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            },
+            {
+                "isExported": true,
+                "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+                "permission": "com.google.android.c2dm.permission.SEND"
+            },
+            {
+                "isExported": false,
+                "name": "com.google.android.gms.measurement.AppMeasurementReceiver"
+            },
+            {
+                "isExported": false,
+                "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            }
+        ],
+        "certificateData": {
+            "certificateHash": "34073824749a0a089c167ef8abc9cc4b",
+            "endDate": "Mar 22, 2045 11:48:35 AM",
+            "issuerCountry": "91",
+            "issuerName": "NITI Aayog",
+            "issuerOrganization": "NITI Aayog",
+            "publicKeyMd5": "bc046b7d7f6c2089cb8336c153cc391d",
+            "serialNumber": 195204275,
+            "signAlgorithm": "SHA256withRSA",
+            "startDate": "Mar 28, 2020 11:48:35 AM",
+            "subjectCountry": "91",
+            "subjectName": "NITI Aayog",
+            "subjectOrganization": "NITI Aayog"
+        },
+        "contentProviderData": [
+            {
+                "authority": "nic.goi.aarogyasetu.crashlyticsinitprovider",
+                "isExported": false,
+                "name": "com.crashlytics.android.CrashlyticsInitProvider"
+            },
+            {
+                "authority": "nic.goi.aarogyasetu.firebaseinitprovider",
+                "isExported": false,
+                "name": "com.google.firebase.provider.FirebaseInitProvider"
+            },
+            {
+                "authority": "nic.goi.aarogyasetu.lifecycle-process",
+                "isExported": false,
+                "name": "androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            }
+        ],
+        "featureData": [
+            {
+                "isRequired": true,
+                "name": "android.hardware.bluetooth_le"
+            },
+            {
+                "isRequired": false,
+                "name": "android.hardware.camera"
+            },
+            {
+                "isRequired": false,
+                "name": "android.hardware.camera.front"
+            },
+            {
+                "isRequired": false,
+                "name": "android.hardware.camera.autofocus"
+            },
+            {
+                "isRequired": false,
+                "name": "android.hardware.camera.flash"
+            },
+            {
+                "isRequired": false,
+                "name": "android.hardware.screen.landscape"
+            },
+            {
+                "isRequired": false,
+                "name": "android.hardware.wifi"
+            }
+        ],
+        "generalData": {
+            "apkDirectory": "/data/app/nic.goi.aarogyasetu-s2oNgE_TXtWlv_S_D7-NyA==/base.apk",
+            "apkSize": 4424926,
+            "appInstaller": "com.android.vending",
+            "applicationName": "Aarogya Setu",
+            "dataDirectory": "/data/user/0/nic.goi.aarogyasetu",
+            "firstInstallTime": 1619590194974,
+            "icon": {
+                "mSrcDensityOverride": 0
+            },
+            "installLocation": "INTERNAL",
+            "isSystemApp": false,
+            "lastUpdateTime": 1619590194974,
+            "minSdkLabel": "Android 5.0 Lollipop",
+            "minSdkVersion": 21,
+            "packageName": "nic.goi.aarogyasetu",
+            "processName": "nic.goi.aarogyasetu",
+            "source": "GOOGLE_PLAY",
+            "targetSdkLabel": "Android 10 Q",
+            "targetSdkVersion": 29,
+            "uid": 10139,
+            "versionCode": 1057,
+            "versionName": "1.4.1"
+        },
+        "permissionData": {
+            "definesPermissions": [],
+            "usesPermissions": [
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "name": "android.permission.BLUETOOTH",
+                        "protectionLevel": 0,
+                        "simpleName": "Bluetooth"
+                    }
+                },
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "name": "android.permission.BLUETOOTH_ADMIN",
+                        "protectionLevel": 0,
+                        "simpleName": "Bluetooth Admin"
+                    }
+                },
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "groupName": "android.permission-group.UNDEFINED",
+                        "name": "android.permission.ACCESS_COARSE_LOCATION",
+                        "protectionLevel": 4097,
+                        "simpleName": "Access Coarse Location"
+                    }
+                },
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "groupName": "android.permission-group.UNDEFINED",
+                        "name": "android.permission.ACCESS_FINE_LOCATION",
+                        "protectionLevel": 4097,
+                        "simpleName": "Access Fine Location"
+                    }
+                },
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "name": "android.permission.ACCESS_NETWORK_STATE",
+                        "protectionLevel": 4096,
+                        "simpleName": "Access Network State"
+                    }
+                },
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "name": "android.permission.INTERNET",
+                        "protectionLevel": 4096,
+                        "simpleName": "Internet"
+                    }
+                },
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "name": "android.permission.FOREGROUND_SERVICE",
+                        "protectionLevel": 4096,
+                        "simpleName": "Foreground Service"
+                    }
+                },
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+                        "protectionLevel": 0,
+                        "simpleName": "Receive Boot Completed"
+                    }
+                },
+                {
+                    "isGranted": false,
+                    "permissionData": {
+                        "groupName": "android.permission-group.UNDEFINED",
+                        "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                        "protectionLevel": 4097,
+                        "simpleName": "Access Background Location"
+                    }
+                },
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "name": "android.permission.WAKE_LOCK",
+                        "protectionLevel": 4096,
+                        "simpleName": "Wake Lock"
+                    }
+                },
+                {
+                    "isGranted": false,
+                    "permissionData": {
+                        "groupName": "android.permission-group.UNDEFINED",
+                        "name": "android.permission.CAMERA",
+                        "protectionLevel": 4097,
+                        "simpleName": "Camera"
+                    }
+                },
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "name": "com.google.android.c2dm.permission.RECEIVE",
+                        "protectionLevel": 0,
+                        "simpleName": "Receive"
+                    }
+                },
+                {
+                    "isGranted": true,
+                    "permissionData": {
+                        "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+                        "protectionLevel": 0,
+                        "simpleName": "Bind Get Install Referrer Service"
+                    }
+                }
+            ]
+        },
+        "serviceData": [
+            {
+                "isExported": false,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "nic.goi.aarogyasetu.background.BluetoothScanningService"
+            },
+            {
+                "isExported": false,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "nic.goi.aarogyasetu.firebase.FcmMessagingService"
+            },
+            {
+                "isExported": true,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "androidx.work.impl.background.systemjob.SystemJobService",
+                "permission": "android.permission.BIND_JOB_SERVICE"
+            },
+            {
+                "isExported": false,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "androidx.work.impl.foreground.SystemForegroundService"
+            },
+            {
+                "isExported": false,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "androidx.room.MultiInstanceInvalidationService"
+            },
+            {
+                "isExported": false,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "com.google.firebase.components.ComponentDiscoveryService"
+            },
+            {
+                "isExported": false,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "com.google.firebase.messaging.FirebaseMessagingService"
+            },
+            {
+                "isExported": false,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "com.google.android.gms.measurement.AppMeasurementService"
+            },
+            {
+                "isExported": false,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+                "permission": "android.permission.BIND_JOB_SERVICE"
+            },
+            {
+                "isExported": false,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            },
+            {
+                "isExported": false,
+                "isExternalService": false,
+                "isIsolatedProcess": false,
+                "isSingleUser": false,
+                "isStopWithTask": false,
+                "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+                "permission": "android.permission.BIND_JOB_SERVICE"
+            }
+        ]
+    }
+}

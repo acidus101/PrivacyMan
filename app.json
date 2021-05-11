@@ -1,0 +1,12 @@
+{
+  "name": "ear",
+  "displayName": "ear",
+  "expo": {
+    "name": "ear",
+    "slug": "ear",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
